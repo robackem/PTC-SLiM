@@ -11,7 +11,7 @@ initialize() {
 	initializeMutationType("m2", 0.5, "g", -0.01, 0.1);    // standing PTCs
 	m1.convertToSubstitution = F;
 	m2.convertToSubstitution = F;
-	
+	m1.mutationStackPolicy = "f";  // once a PTC has occurred in a genome another PTC cannot occur in the same place
 
 // define a "genomic element type" that uses mutation type m1, representing genomic regions that can incur de novo PTCs
 	initializeGenomicElementType("g1", m1, 1.0);
