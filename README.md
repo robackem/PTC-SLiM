@@ -1,6 +1,8 @@
 # PTC-SLiM
 SLiM scripts for simulating PTC evolution in cavefish. For full information on SLiM please see https://messerlab.org/slim/
 
+## For investigation of the potential strength and direction of selection on PTCs in caves
+
 ### PTC_neutral_model.txt
 Simulates 175k generations in a cavefish population (Ne = 32,000). Both de novo PTCs and those sourced from standing genetic variation (seeded into the population at the beginning of the model) have a fixed distribution of fitness effects (DFE) at 0 (neither have any fitness effect). 
 
@@ -9,3 +11,6 @@ Simulates 175k generations in a cavefish population (Ne = 32,000). PTCs receive 
 
 ### PTC_normalDFE_model.txt
 Simulates 175k generations in a cavefish population (Ne = 32,000). PTCs receive a selection coefficient sampled from a normal DFE with a specified mean and standard deviation. Under this distribution, PTCs range from beneficial (selection coefficient greater than 0) to deleterious (selection coefficient less than 0) as influenced by the distribution mean and standard deviation 
+
+## For investigation of the role of effective population size and drift on PTC frequency
+
