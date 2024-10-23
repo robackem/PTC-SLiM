@@ -3,16 +3,17 @@ SLiM scripts for simulating PTC evolution in cavefish. For full information on S
 
 ## For calculating an estimated PTC-specific mutation rate used by all SLiM models
 
-## estimatePTCmutationrate.pl
+## estimate_mutationrate.pl
 Estimates the probability of a PTC occurring in the cDNA of each gene supplied. 
 
 Requires 2 input files: 
-1. **codon_prob_key.txt** (contains the probability of producing a PTC at each nucleotide position for each possible codon)
+1. **PTC_codon_prob_key.txt** (contains the probability of producing a PTC at each nucleotide position for each possible codon)
 2. a file containing cDNA sequences for each gene (one gene and sequence per line)
 ```
 >ENSAMXT00000000567;GTTTCAGGGCTCCTCAGTTTCTGTGCGGCTGCTGTGAGCATGCGCGAGTCACGTGGGCGGCGCCGTGGGGGAAGCATGGCGGCG...
 >ENSAMXT00000000488;ATTATGCTGCTAACTCTGTATACTGTTTACTCTATAGCATTTTCTTTCTCCGTCTAATTTTATGTTAAATGTTAAATTTAATTT...
 ```
+Calculation of synonymous substitution probability can be generated instead using **SYNONYMOUS_codon_prob_key.txt**
 
 **Note:** Generate a usage statement for any of my perl scripts using 
 
