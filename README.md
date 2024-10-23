@@ -1,6 +1,12 @@
 # PTC-SLiM
 SLiM scripts for simulating PTC evolution in cavefish. For full information on SLiM please see https://messerlab.org/slim/
 
+**Note:** Generate a usage statement for any of my perl scripts using 
+
+```
+perl script.pl -h
+```
+
 ## For calculating an estimated PTC-specific mutation rate used by all SLiM models
 
 ## estimate_mutationrate.pl
@@ -13,13 +19,7 @@ Requires 2 input files:
 >ENSAMXT00000000567;GTTTCAGGGCTCCTCAGTTTCTGTGCGGCTGCTGTGAGCATGCGCGAGTCACGTGGGCGGCGCCGTGGGGGAAGCATGGCGGCG...
 >ENSAMXT00000000488;ATTATGCTGCTAACTCTGTATACTGTTTACTCTATAGCATTTTCTTTCTCCGTCTAATTTTATGTTAAATGTTAAATTTAATTT...
 ```
-Calculation of synonymous substitution probability can be generated instead using **SYNONYMOUS_codon_prob_key.txt**
-
-**Note:** Generate a usage statement for any of my perl scripts using 
-
-```
-perl script.pl -h
-```
+**Note:** Calculation of synonymous substitution probability can be generated instead using **SYNONYMOUS_codon_prob_key.txt**
 
 
 ## For investigation of the potential strength and direction of selection on PTCs in caves
