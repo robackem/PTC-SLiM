@@ -1,5 +1,7 @@
 # PTC-SLiM
-SLiM scripts for simulating PTC evolution in cavefish. For full information on SLiM please see https://messerlab.org/slim/
+SLiM scripts for simulating PTC evolution in cavefish
+
+For full information on SLiM please see https://messerlab.org/slim/
 
 **Note:** Generate a usage statement for any of my perl scripts using 
 
